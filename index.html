@@ -48,7 +48,7 @@
         <p>&ensp;&ensp;A principal inspiração para os traços do novo Bugdroid veio daqueles bonequinhos que ilustram portas de banheiro para indicar o gênero de cada porta. Conta a lenda que a artista estava criando em sua mesa no escritório do Google e
             olhou para o lado dos banheiros e a identificação foi imediata: simples, limpo, objetivo.</p>
         <article id="youtube">
-            <center><iframe width="560" height="315" src="https://www.youtube.com/embed/l2UDgpLz20M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+            <center><iframe height="315" src="https://www.youtube.com/embed/l2UDgpLz20M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
         </article>
 
         <article id=ultimo>
@@ -140,7 +140,8 @@
             background-color: white;
             padding: 20px;
             margin-top: 0px;
-            width: 800px;
+            min-width: 320px;
+            max-width: 800px;
             margin: auto;
             box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, 0.507);
             border-radius: 0px 0px 5px 5px;
@@ -168,7 +169,7 @@
             color: white;
             font-weight: bold;
             margin-right: 30px;
-            padding-left: 15px;
+            padding-left: 5px;
         }
         
         nav>a:hover {
@@ -177,14 +178,16 @@
         
         article#youtube {
             background-color: rgba(7, 92, 52, 0.829);
-            width: 800px;
+            min-width: 320px;
+            max-width: 800px;
             margin: auto;
         }
         
         article#ultimo {
             border-radius: 5px;
             background-color: rgba(67, 231, 154, 0.479);
-            width: 750px;
+            min-width: 320px;
+            max-width: 750px;
             margin: auto;
             padding-bottom: 10px;
             box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, 0.26);
@@ -215,6 +218,11 @@
             background-color: rgba(7, 92, 52, 0.918);
             color: white;
             padding: 5px;
+        }
+        
+        iframe {
+            min-width: 400px;
+            max-width: 750px;
         }
     </style>
 </body>
