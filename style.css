@@ -84,7 +84,7 @@ nav>a {
     color: white;
     font-weight: normal;
     margin-right: 3px;
-    padding-left: 3px;
+    padding-left: 1px;
     border-radius: 5px;
     padding: 8px;
     transition-duration: 1s;
